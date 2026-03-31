@@ -1,0 +1,13 @@
+{
+  "name": "Moonlight Streamer",
+  "short_name": "Moonlight",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#1DB954",
+  "icons": [{
+    "src": "https://cdn-icons-png.flaticon.com/512/3844/3844724.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}
