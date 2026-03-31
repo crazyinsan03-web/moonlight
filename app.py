@@ -4,12 +4,11 @@ import yt_dlp
 app = Flask(__name__)
 
 def get_song_info(query):
-  ydl_opts = {
+ydl_opts = {
     'format': 'bestaudio/best',
     'noplaylist': True,
     'quiet': True,
-    # YouTube ki jagah SoundCloud search use karega
-    'default_search': 'scsearch', 
+    'default_search': 'scsearch', # Check kar yahan 'scsearch' hi ho
     'nocheckcertificate': True
 }
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
